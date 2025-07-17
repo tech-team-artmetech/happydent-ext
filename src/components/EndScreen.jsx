@@ -989,7 +989,7 @@ const EndScreen = ({ onRetry, onRetryAR }) => {
           <img
             src={userPhoto || "/assets/enddummy.png"}
             alt="Result"
-            className="max-w-[550px]"
+            className="max-w-[85%] md:max-w-[550px]"
             onError={(e) => {
               e.target.src = "/assets/enddummy.png";
             }}
